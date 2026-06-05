@@ -1,0 +1,27 @@
+Machine: MacBookAir.broadband
+Platform: arm64
+System: Darwin
+Date: 20260321_155056
+
+=== Classical Algorithms ===
+RSA-2048 keygen: 0.064223s per operation
+ECDH P-256 keygen: 0.012894s per operation
+X25519 keygen: 0.013100s per operation
+ECDSA P-256 keygen: 0.012677s per operation
+
+=== ML-KEM / CRYSTALS-Kyber (FIPS 203) ===
+ML-KEM-512 keygen: 0.012810s per operation
+ML-KEM-768 keygen: 0.012623s per operation
+ML-KEM-1024 keygen: 0.012952s per operation
+
+=== ML-DSA / CRYSTALS-Dilithium (FIPS 204) ===
+ML-DSA-44 keygen: 0.012859s per operation
+ML-DSA-65 keygen: 0.013182s per operation
+ML-DSA-87 keygen: 0.013334s per operation
+
+=== SLH-DSA / SPHINCS+ (FIPS 205) ===
+SLH-DSA-SHA2-128s keygen: 0.039844s per operation
+SLH-DSA-SHA2-128f keygen: 0.013192s per operation
+SLH-DSA-SHAKE-128s keygen: 0.086891s per operation
+
+Done!

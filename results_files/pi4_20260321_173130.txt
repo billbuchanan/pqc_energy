@@ -1,0 +1,27 @@
+Machine: oli
+Platform: aarch64
+System: Linux
+Date: 20260321_173130
+
+=== Classical Algorithms ===
+RSA-2048 keygen: 0.355972s per operation
+ECDH P-256 keygen: 0.024293s per operation
+X25519 keygen: 0.023889s per operation
+ECDSA P-256 keygen: 0.024307s per operation
+
+=== ML-KEM / CRYSTALS-Kyber (FIPS 203) ===
+ML-KEM-512 keygen: 0.025069s per operation
+ML-KEM-768 keygen: 0.024962s per operation
+ML-KEM-1024 keygen: 0.025387s per operation
+
+=== ML-DSA / CRYSTALS-Dilithium (FIPS 204) ===
+ML-DSA-44 keygen: 0.025575s per operation
+ML-DSA-65 keygen: 0.026340s per operation
+ML-DSA-87 keygen: 0.027057s per operation
+
+=== SLH-DSA / SPHINCS+ (FIPS 205) ===
+SLH-DSA-SHA2-128s keygen: 0.323935s per operation
+SLH-DSA-SHA2-128f keygen: 0.029376s per operation
+SLH-DSA-SHAKE-128s keygen: 0.358511s per operation
+
+Done!

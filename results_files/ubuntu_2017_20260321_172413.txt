@@ -1,0 +1,27 @@
+Machine: oli-ubuntu
+Platform: x86_64
+System: Linux
+Date: 20260321_172413
+
+=== Classical Algorithms ===
+RSA-2048 keygen: 0.055286s per operation
+ECDH P-256 keygen: 0.010808s per operation
+X25519 keygen: 0.010684s per operation
+ECDSA P-256 keygen: 0.010913s per operation
+
+=== ML-KEM / CRYSTALS-Kyber (FIPS 203) ===
+ML-KEM-512 keygen: 0.010831s per operation
+ML-KEM-768 keygen: 0.010877s per operation
+ML-KEM-1024 keygen: 0.010683s per operation
+
+=== ML-DSA / CRYSTALS-Dilithium (FIPS 204) ===
+ML-DSA-44 keygen: 0.011208s per operation
+ML-DSA-65 keygen: 0.011015s per operation
+ML-DSA-87 keygen: 0.011287s per operation
+
+=== SLH-DSA / SPHINCS+ (FIPS 205) ===
+SLH-DSA-SHA2-128s keygen: 0.121457s per operation
+SLH-DSA-SHA2-128f keygen: 0.012307s per operation
+SLH-DSA-SHAKE-128s keygen: 0.135711s per operation
+
+Done!

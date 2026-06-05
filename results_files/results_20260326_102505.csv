@@ -1,0 +1,4 @@
+machine,method,submethod,algorithm,iterations,total time,time per iteration,baseline power,on-load power,total power used,joules per iteration,iterations per joule
+olinux,key generation,,SLH-DSA-SHA2-192f,10,0.16373610496520996,0.016373610496520995,,,,,
+olinux,signatures,verification,SLH-DSA-SHAKE-256s,10,9.387052536010742,0.9387052536010743,5.4,9.9,4.5,4.2241736412048345,0.23673269257813379
+olinux,signatures,verification,SLH-DSA-SHAKE-256s,10,0.10223102569580078,0.010223102569580079,5.4,9.9,4.5,0.04600396156311035,21.737258401717295

@@ -1,0 +1,27 @@
+Machine: pizero
+Platform: armv6l
+System: Linux
+Date: 20260321_202945
+
+=== Classical Algorithms ===
+RSA-2048 keygen: 10.747215s per operation
+ECDH P-256 keygen: 0.219434s per operation
+X25519 keygen: 0.215040s per operation
+ECDSA P-256 keygen: 0.219424s per operation
+
+=== ML-KEM / CRYSTALS-Kyber (FIPS 203) ===
+ML-KEM-512 keygen: 0.176199s per operation
+ML-KEM-768 keygen: 0.176678s per operation
+ML-KEM-1024 keygen: 0.177177s per operation
+
+=== ML-DSA / CRYSTALS-Dilithium (FIPS 204) ===
+ML-DSA-44 keygen: 0.176594s per operation
+ML-DSA-65 keygen: 0.176313s per operation
+ML-DSA-87 keygen: 0.176446s per operation
+
+=== SLH-DSA / SPHINCS+ (FIPS 205) ===
+SLH-DSA-SHA2-128s keygen: 0.176909s per operation
+SLH-DSA-SHA2-128f keygen: 0.176316s per operation
+SLH-DSA-SHAKE-128s keygen: 0.176248s per operation
+
+Done!

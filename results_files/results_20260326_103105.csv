@@ -1,0 +1,2 @@
+machine,method,submethod,algorithm,iterations,total time,time per iteration,baseline power,on-load power,total power used,joules per iteration,iterations per joule
+olinux,signatures,verification,SLH-DSA-SHA2-192f,10,0.0912017822265625,0.00912017822265625,,,,,
